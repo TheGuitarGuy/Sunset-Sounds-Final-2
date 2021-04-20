@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC172932262F37C2008FA837 /* Sunset_Sounds_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC172931262F37C2008FA837 /* Sunset_Sounds_FinalApp.swift */; };
+		DC172934262F37C2008FA837 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC172933262F37C2008FA837 /* ContentView.swift */; };
+		DC172936262F37C3008FA837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC172935262F37C3008FA837 /* Assets.xcassets */; };
+		DC172939262F37C3008FA837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC172938262F37C3008FA837 /* Preview Assets.xcassets */; };
+		DC172944262F37C3008FA837 /* Sunset_Sounds_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC172943262F37C3008FA837 /* Sunset_Sounds_FinalTests.swift */; };
+		DC17294F262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17294E262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC172940262F37C3008FA837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC172926262F37C2008FA837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC17292D262F37C2008FA837;
+			remoteInfo = "Sunset Sounds Final";
+		};
+		DC17294B262F37C3008FA837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC172926262F37C2008FA837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC17292D262F37C2008FA837;
+			remoteInfo = "Sunset Sounds Final";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC17292E262F37C2008FA837 /* Sunset Sounds Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunset Sounds Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC172931262F37C2008FA837 /* Sunset_Sounds_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunset_Sounds_FinalApp.swift; sourceTree = "<group>"; };
+		DC172933262F37C2008FA837 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC172935262F37C3008FA837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC172938262F37C3008FA837 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC17293A262F37C3008FA837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC17293F262F37C3008FA837 /* Sunset Sounds FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunset Sounds FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC172943262F37C3008FA837 /* Sunset_Sounds_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunset_Sounds_FinalTests.swift; sourceTree = "<group>"; };
+		DC172945262F37C3008FA837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC17294A262F37C3008FA837 /* Sunset Sounds FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunset Sounds FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC17294E262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunset_Sounds_FinalUITests.swift; sourceTree = "<group>"; };
+		DC172950262F37C3008FA837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC17292B262F37C2008FA837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC17293C262F37C3008FA837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC172947262F37C3008FA837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC172925262F37C2008FA837 = {
+			isa = PBXGroup;
+			children = (
+				DC172930262F37C2008FA837 /* Sunset Sounds Final */,
+				DC172942262F37C3008FA837 /* Sunset Sounds FinalTests */,
+				DC17294D262F37C3008FA837 /* Sunset Sounds FinalUITests */,
+				DC17292F262F37C2008FA837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC17292F262F37C2008FA837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC17292E262F37C2008FA837 /* Sunset Sounds Final.app */,
+				DC17293F262F37C3008FA837 /* Sunset Sounds FinalTests.xctest */,
+				DC17294A262F37C3008FA837 /* Sunset Sounds FinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC172930262F37C2008FA837 /* Sunset Sounds Final */ = {
+			isa = PBXGroup;
+			children = (
+				DC172931262F37C2008FA837 /* Sunset_Sounds_FinalApp.swift */,
+				DC172933262F37C2008FA837 /* ContentView.swift */,
+				DC172935262F37C3008FA837 /* Assets.xcassets */,
+				DC17293A262F37C3008FA837 /* Info.plist */,
+				DC172937262F37C3008FA837 /* Preview Content */,
+			);
+			path = "Sunset Sounds Final";
+			sourceTree = "<group>";
+		};
+		DC172937262F37C3008FA837 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC172938262F37C3008FA837 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC172942262F37C3008FA837 /* Sunset Sounds FinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC172943262F37C3008FA837 /* Sunset_Sounds_FinalTests.swift */,
+				DC172945262F37C3008FA837 /* Info.plist */,
+			);
+			path = "Sunset Sounds FinalTests";
+			sourceTree = "<group>";
+		};
+		DC17294D262F37C3008FA837 /* Sunset Sounds FinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC17294E262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift */,
+				DC172950262F37C3008FA837 /* Info.plist */,
+			);
+			path = "Sunset Sounds FinalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC17292D262F37C2008FA837 /* Sunset Sounds Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC172953262F37C3008FA837 /* Build configuration list for PBXNativeTarget "Sunset Sounds Final" */;
+			buildPhases = (
+				DC17292A262F37C2008FA837 /* Sources */,
+				DC17292B262F37C2008FA837 /* Frameworks */,
+				DC17292C262F37C2008FA837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sunset Sounds Final";
+			productName = "Sunset Sounds Final";
+			productReference = DC17292E262F37C2008FA837 /* Sunset Sounds Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC17293E262F37C3008FA837 /* Sunset Sounds FinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC172956262F37C3008FA837 /* Build configuration list for PBXNativeTarget "Sunset Sounds FinalTests" */;
+			buildPhases = (
+				DC17293B262F37C3008FA837 /* Sources */,
+				DC17293C262F37C3008FA837 /* Frameworks */,
+				DC17293D262F37C3008FA837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC172941262F37C3008FA837 /* PBXTargetDependency */,
+			);
+			name = "Sunset Sounds FinalTests";
+			productName = "Sunset Sounds FinalTests";
+			productReference = DC17293F262F37C3008FA837 /* Sunset Sounds FinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC172949262F37C3008FA837 /* Sunset Sounds FinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC172959262F37C3008FA837 /* Build configuration list for PBXNativeTarget "Sunset Sounds FinalUITests" */;
+			buildPhases = (
+				DC172946262F37C3008FA837 /* Sources */,
+				DC172947262F37C3008FA837 /* Frameworks */,
+				DC172948262F37C3008FA837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC17294C262F37C3008FA837 /* PBXTargetDependency */,
+			);
+			name = "Sunset Sounds FinalUITests";
+			productName = "Sunset Sounds FinalUITests";
+			productReference = DC17294A262F37C3008FA837 /* Sunset Sounds FinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC172926262F37C2008FA837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DC17292D262F37C2008FA837 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DC17293E262F37C3008FA837 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DC17292D262F37C2008FA837;
+					};
+					DC172949262F37C3008FA837 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DC17292D262F37C2008FA837;
+					};
+				};
+			};
+			buildConfigurationList = DC172929262F37C2008FA837 /* Build configuration list for PBXProject "Sunset Sounds Final" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC172925262F37C2008FA837;
+			productRefGroup = DC17292F262F37C2008FA837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC17292D262F37C2008FA837 /* Sunset Sounds Final */,
+				DC17293E262F37C3008FA837 /* Sunset Sounds FinalTests */,
+				DC172949262F37C3008FA837 /* Sunset Sounds FinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC17292C262F37C2008FA837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC172939262F37C3008FA837 /* Preview Assets.xcassets in Resources */,
+				DC172936262F37C3008FA837 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC17293D262F37C3008FA837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC172948262F37C3008FA837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC17292A262F37C2008FA837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC172934262F37C2008FA837 /* ContentView.swift in Sources */,
+				DC172932262F37C2008FA837 /* Sunset_Sounds_FinalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC17293B262F37C3008FA837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC172944262F37C3008FA837 /* Sunset_Sounds_FinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC172946262F37C3008FA837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC17294F262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC172941262F37C3008FA837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC17292D262F37C2008FA837 /* Sunset Sounds Final */;
+			targetProxy = DC172940262F37C3008FA837 /* PBXContainerItemProxy */;
+		};
+		DC17294C262F37C3008FA837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC17292D262F37C2008FA837 /* Sunset Sounds Final */;
+			targetProxy = DC17294B262F37C3008FA837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC172951262F37C3008FA837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC172952262F37C3008FA837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC172954262F37C3008FA837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sunset Sounds Final/Preview Content\"";
+				DEVELOPMENT_TEAM = HU9YUQ39AD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sunset Sounds Final/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC172955262F37C3008FA837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sunset Sounds Final/Preview Content\"";
+				DEVELOPMENT_TEAM = HU9YUQ39AD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sunset Sounds Final/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC172957262F37C3008FA837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU9YUQ39AD;
+				INFOPLIST_FILE = "Sunset Sounds FinalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunset Sounds Final.app/Sunset Sounds Final";
+			};
+			name = Debug;
+		};
+		DC172958262F37C3008FA837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU9YUQ39AD;
+				INFOPLIST_FILE = "Sunset Sounds FinalTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunset Sounds Final.app/Sunset Sounds Final";
+			};
+			name = Release;
+		};
+		DC17295A262F37C3008FA837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU9YUQ39AD;
+				INFOPLIST_FILE = "Sunset Sounds FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sunset Sounds Final";
+			};
+			name = Debug;
+		};
+		DC17295B262F37C3008FA837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU9YUQ39AD;
+				INFOPLIST_FILE = "Sunset Sounds FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sunset Sounds Final";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC172929262F37C2008FA837 /* Build configuration list for PBXProject "Sunset Sounds Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC172951262F37C3008FA837 /* Debug */,
+				DC172952262F37C3008FA837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC172953262F37C3008FA837 /* Build configuration list for PBXNativeTarget "Sunset Sounds Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC172954262F37C3008FA837 /* Debug */,
+				DC172955262F37C3008FA837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC172956262F37C3008FA837 /* Build configuration list for PBXNativeTarget "Sunset Sounds FinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC172957262F37C3008FA837 /* Debug */,
+				DC172958262F37C3008FA837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC172959262F37C3008FA837 /* Build configuration list for PBXNativeTarget "Sunset Sounds FinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC17295A262F37C3008FA837 /* Debug */,
+				DC17295B262F37C3008FA837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC172926262F37C2008FA837 /* Project object */;
+}
