@@ -13,6 +13,10 @@
 		DC172939262F37C3008FA837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC172938262F37C3008FA837 /* Preview Assets.xcassets */; };
 		DC172944262F37C3008FA837 /* Sunset_Sounds_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC172943262F37C3008FA837 /* Sunset_Sounds_FinalTests.swift */; };
 		DC17294F262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC17294E262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift */; };
+		DC51F01F2642115000FB9A1E /* a.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC51F01E2642115000FB9A1E /* a.wav */; };
+		DC99CD57264221C500F8B473 /* Login Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99CD56264221C500F8B473 /* Login Screen.swift */; };
+		DCC72768264660F300C81252 /* More Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC72767264660F300C81252 /* More Page.swift */; };
+		DCE0493826372F73006C7900 /* Sound Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0493726372F73006C7900 /* Sound Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		DC17294A262F37C3008FA837 /* Sunset Sounds FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sunset Sounds FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC17294E262F37C3008FA837 /* Sunset_Sounds_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunset_Sounds_FinalUITests.swift; sourceTree = "<group>"; };
 		DC172950262F37C3008FA837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC51F01E2642115000FB9A1E /* a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a.wav; sourceTree = "<group>"; };
+		DC99CD56264221C500F8B473 /* Login Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login Screen.swift"; sourceTree = "<group>"; };
+		DCC72767264660F300C81252 /* More Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "More Page.swift"; sourceTree = "<group>"; };
+		DCE0493726372F73006C7900 /* Sound Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sound Functions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +103,13 @@
 		DC172930262F37C2008FA837 /* Sunset Sounds Final */ = {
 			isa = PBXGroup;
 			children = (
+				DC51F01D2642113A00FB9A1E /* Default Sounds */,
+				DCE0493726372F73006C7900 /* Sound Functions.swift */,
 				DC172931262F37C2008FA837 /* Sunset_Sounds_FinalApp.swift */,
+				DCC72767264660F300C81252 /* More Page.swift */,
 				DC172933262F37C2008FA837 /* ContentView.swift */,
 				DC172935262F37C3008FA837 /* Assets.xcassets */,
+				DC99CD56264221C500F8B473 /* Login Screen.swift */,
 				DC17293A262F37C3008FA837 /* Info.plist */,
 				DC172937262F37C3008FA837 /* Preview Content */,
 			);
@@ -128,6 +140,22 @@
 				DC172950262F37C3008FA837 /* Info.plist */,
 			);
 			path = "Sunset Sounds FinalUITests";
+			sourceTree = "<group>";
+		};
+		DC51F01D2642113A00FB9A1E /* Default Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DC51F01E2642115000FB9A1E /* a.wav */,
+				DC51F0262642118100FB9A1E /* Indie Sounds */,
+			);
+			path = "Default Sounds";
+			sourceTree = "<group>";
+		};
+		DC51F0262642118100FB9A1E /* Indie Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Indie Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC51F01F2642115000FB9A1E /* a.wav in Resources */,
 				DC172939262F37C3008FA837 /* Preview Assets.xcassets in Resources */,
 				DC172936262F37C3008FA837 /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +290,9 @@
 			files = (
 				DC172934262F37C2008FA837 /* ContentView.swift in Sources */,
 				DC172932262F37C2008FA837 /* Sunset_Sounds_FinalApp.swift in Sources */,
+				DC99CD57264221C500F8B473 /* Login Screen.swift in Sources */,
+				DCC72768264660F300C81252 /* More Page.swift in Sources */,
+				DCE0493826372F73006C7900 /* Sound Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +454,7 @@
 				DEVELOPMENT_TEAM = HU9YUQ39AD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Sunset Sounds Final/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,7 +476,7 @@
 				DEVELOPMENT_TEAM = HU9YUQ39AD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Sunset Sounds Final/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenniongubler.Sunset-Sounds-Final";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
