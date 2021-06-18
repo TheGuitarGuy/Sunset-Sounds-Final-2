@@ -61,7 +61,7 @@ struct ContentView: View {
                     
                     
                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                        Image("White Button")
+                        Image("Blue Button")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                     }
